@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelia - Gallery</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="resturant.css">
+    <link rel="stylesheet" href="facility.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <!--cormorant font used for brand name-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <!--Montserrat font used for links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Itallino used for golden text at hero section-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <!--Jost used for hero para-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="logo.png" class="img-fluid logo-img">Aurelia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggler"
+                    aria-controls="navbartoggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbartoggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 links-container">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="room.html">rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="resturant.html">restaurant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="facility.html">facilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="gallery.html">gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="book.html">booking</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="about-img-overlay">
+            <img src="main-page/hero-img.jpg" class="w-100 img-fluid about-bg">
+            <div class="about-hero-content">
+                <h5 class="resturant-hero-heading line">A Visual Journey</h5>
+                <h1 class="resturant-hero-title">The <span class="resturant-gold">Gallery</span>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <h5 class="gallery-heading line">Gallery</h5>
+        <h1 class="gallery-title">Our Estate</h1>
+        <div class="container">
+            <div class="row gallery-container">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/room2.webp" class="img-fluid gallery-img" alt="Room">
+                        <div class="gallery-overlay">
+                            <p>Suites</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/main-page-lobby.webp" class="img-fluid gallery-img" alt="Lobby-image">
+                        <div class="gallery-overlay">
+                            <p>The Lobby</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/resturant-img.webp" class="img-fluid gallery-img" alt="Resturant-image">
+                        <div class="gallery-overlay">
+                            <p>Restaurant</p>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/gallery2.webp" class="img-fluid gallery-img" alt="Pool-view">
+                        <div class="gallery-overlay">
+                            <p>The Pool</p>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/gallery1.webp" class="img-fluid gallery-img" alt="Spa-room">
+                        <div class="gallery-overlay">
+                            <p>Spa & Wellness</p>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/gallery3.webp" class="img-fluid gallery-img" alt="Food">
+                        <div class="gallery-overlay">
+                            <p>Fine Dining</p>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="book-page/table-hero.webp" class="img-fluid gallery-img" alt="food on table">
+                        <div class="gallery-overlay">
+                            <p>Exterior</p>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/quote-img.webp" class="img-fluid gallery-img" alt="Morning-breakfast">
+                        <div class="gallery-overlay">
+                            <p>Mornings</p>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="gallery-page/banquet-hall.webp" class="img-fluid gallery-img" alt="Banquet-Hall">
+                        <div class="gallery-overlay">
+                            <p>Events</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/room1.webp" class="img-fluid gallery-img" alt="Room">
+                        <div class="gallery-overlay">
+                            <p>Rooms</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="facility-page/gym-fitness.webp" class="img-fluid gallery-img" alt="Gym-Image">
+                        <div class="gallery-overlay">
+                            <p>Fitness</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card gallery-box">
+                        <img src="main-page/room3.webp" class="img-fluid gallery-img" alt="Room">
+                        <div class="gallery-overlay">
+                            <p>Residences</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <img src="logo.png" class="img-fluid contact-logo">
+            <h1 class="contact-heading">Photographs cannot hold the sea air</h1>
+            <p class="contact-para">The only true way to know this house is to stand on the terrace at sunset and decide, quietly, when you will return.</p>
+                <div class="contact-btns">
+                   <a href="book.html"> <button class="contact-btn1">Book Your Stay</button></a>
+                    <a href="book.html"><button class="contact-btn2">Speak With Us</button></a>
+                </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 footer-brand">
+                <h2>Aurelia</h2>
+                <p>
+                    Where the sea meets golden serenity.
+                    A timeless escape shaped by elegance,
+                    comfort, and quiet luxury.
+                </p>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <h5>Explore</h5>
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="room.html">Rooms</a>
+                <a href="resturant.html">Restaurant</a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <h5>Discover</h5>
+                <a href="facility.html">Facilities</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="book.html">Booking</a>
+                <a href="book.html">Contact</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 footer-contact">
+                <h5>Contact</h5>
+                <p>+92 300 1234567</p>
+                <p>stay@aureliagrand.com</p>
+                <p>Private Crescent, Vehari, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="line">© 2026 Aurelia Grand Hotel & Resort. All rights reserved.</p>
+            <p>Designed & developed by <span class="line">Fayha Rafiq<i class="bi bi-stars name-icon"></i></span></p>
+        </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>window.addEventListener("scroll", () => {
+            const navbar = document.querySelector(".navbar");
+
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+    <script>
+        AOS.init({
+            duration: 1300,
+            once: true,
+            offset: 100,
+            easing: "ease-in-out"
+        });
+    </script>
+</body>
+</html>

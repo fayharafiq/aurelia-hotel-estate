@@ -1,0 +1,30 @@
+.resturant-para{
+    color: #dddbd8e3;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 17px;
+}
+.resturant-hero-title{
+    font-family: "Cormorant", serif;
+   font-weight: 500;
+   color: #fff8f8;
+   text-align: center;
+   font-size: 55px;
+   line-height: 0.9;
+}
+.resturant-hero-heading{
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    color: #d2a156;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.resturant-gold{
+    color: #c6a56c;
+    font-family: "Italianno", cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 120px;
+}

@@ -1,0 +1,351 @@
+@media (max-width: 991.98px) {
+    .navbar .navbar-brand{
+        margin-left: 15px;
+    }
+    .links-container{
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+    }
+}
+/*HERO SECTION*/
+@media(max-width:991.98px){
+       .hero-content{
+        margin-left: 50px;
+        top: 80px;
+    }
+    .hero-heading{
+        font-size: 65px;
+    }
+    .gold{
+        font-size: 100px;
+    }
+    .hero-para{
+        font-size: 18px;
+        max-width: 500px;
+    }
+    .hero-btns{
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .btn1, .btn2{
+    width: 145px;
+    height: 50px;
+    font-size: 13px;
+    }
+}
+@media(max-width:767.98px){
+       .hero-content{
+        margin-left: 30px;
+        top: 80px;
+    }
+    .hero-heading{
+        font-size: 55px;
+    }
+    .gold{
+        font-size: 80px;
+    }
+    .hero-para{
+        font-size: 18px;
+        max-width: 500px;
+    }
+    .hero-btns{
+        gap: 10px;
+        padding-top: 30px;
+    }
+    .btn1, .btn2{
+    width: 145px;
+    height: 50px;
+    font-size: 13px;
+    }
+}
+@media (min-width:480px) and (max-width:563.98px){
+       .hero-content{
+        margin-left: 25px;
+        top: 80px;
+    }
+    .hero-heading{
+        font-size: 50px;
+    }
+    .gold{
+        font-size: 80px;
+    }
+    .hero-para{
+        font-size: 17px;
+        max-width: 400px;
+    }
+    .hero-btns{
+        gap: 10px;
+        padding-top: 30px;
+    }
+    .btn1, .btn2{
+    width: 145px;
+    height: 50px;
+    font-size: 13px;
+    }
+}
+@media (min-width:320px) and (max-width:480.98px){
+    .hero-content{
+        margin-left: 20px;
+        top: 100px;
+    }
+    .hero-heading{
+        font-size: 40px;
+    }
+    .gold{
+        font-size: 80px;
+    }
+    .hero-para{
+        font-size: 16px;
+        max-width: 350px;
+    }
+    .hero-btns{
+        gap: 10px;
+        padding-top: 30px;
+        margin-left: 18px;
+    }
+    .btn1, .btn2{
+    width: 125px;
+    height: 40px;
+    font-size: 12px;
+    }
+}
+/*LOBBY section*/
+@media (max-width: 991.98px) {
+    .img-box {
+        width: 80%;
+        height: 300px;
+        margin: 70px auto 0;
+        margin-top: 0px;
+    }
+    .lobby-heading{
+        margin-top: 50px;
+    }
+    .lobby-title{
+        margin-left: 20px;
+        text-align: center;
+        font-size: 35px;
+    }
+    .lobby-para1{
+        margin-left: 30px;
+        
+    }
+}
+@media (max-width: 575.98px) {
+    .img-box {
+        width: 85%;
+        height: 230px;
+    }
+
+    .img-box::before {
+        bottom: 12px;
+        right: 12px;
+    }
+    .lobby-heading{
+        margin-top: 50px;
+    }
+    .lobby-title{
+        margin-left: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+    .lobby-para1{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 575.98px) {
+.rooms-title{
+    margin-left: 10px;
+        text-align: center;
+        font-size: 35px;
+}
+}
+@media (max-width: 575.98px) {
+    .facility-title{
+        margin-left: 10px;
+        text-align: center;
+        font-size: 32px;
+    }
+}
+@media (max-width: 991.98px) {
+     .resturant-heading{
+        margin-top: 70px;
+    }
+}
+@media (max-width: 575.98px) {
+    .resturant-heading{
+        margin-top: 70px;
+    }
+    .resturant-title{
+        font-size: 40px;
+    }
+}
+@media (max-width: 991.98px) {
+    .gallery-card{
+      margin-top: 30px;
+    }
+}
+@media (max-width: 575.98px) {
+    .gallery-title{
+        font-size: 38px;
+    }
+    .gallery-card{
+      margin-top: 30px;
+    }
+}
+@media(max-width: 575.98px){
+    .contact-heading{
+        font-size: 35px;
+    }
+    .contact-para{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .contact-btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    margin-left: 0px;
+    }
+    .contact-btn2{
+        width: 150px;
+    height: 50px;
+    font-size: 12px;
+    }
+}
+@media (max-width: 767.98px) {
+
+    .footer {
+        padding-top: 60px;
+    }
+
+    .footer-brand,
+    .footer-contact {
+        margin-bottom: 40px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 767.98px) {
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-brand,
+    .footer-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer a {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}
+/*About section*/
+@media (max-width: 991.98px) {
+    .about-img-box {
+        width: 100%;
+        max-width: 500px;
+        margin: 70px auto 20px;
+    }
+}
+@media(max-width: 575.98px){
+     .about-img-box {
+        width: 80%;
+        height: 80%;
+        margin: 70px auto 20px;
+        margin-left: 50px;
+    }
+    .about-hero-heading{
+        margin-top: 70px;
+    }
+    .about-hero-title{
+        font-size: 35px;
+    }
+    .gold-about{
+        font-size: 50px;
+    }
+    .about-lobby-title{
+        font-size: 35px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .about-lobby-para1{
+         max-width: 400px;
+        margin-left: 30px;
+    }
+}
+@media(max-width:574.98px){
+    .about-quote-text{
+        font-size: 30px;
+    }
+    .about-quoter-name{
+        font-size: 13px;
+    }
+}
+@media(max-width:574.98px){
+    .text-heading{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+/*Resturant section*/
+@media(max-width:574.98px){
+    .resturant-hero-title{
+        font-size: 35px;
+        line-height: 0.9;
+    }
+    .resturant-gold{
+        font-size: 60px;
+    }
+}
+/*Facility Section*/
+@media(max-width:574.98px){
+    .facility1{
+        margin-left: 30px;
+    }
+    .facility-text{
+        font-size: 16px;
+        margin: 0 auto;
+        max-width: 350px;
+    }
+}
+/*Contact form*/
+@media (max-width: 991.98px) {
+    .booking-info {
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .booking-form {
+        padding: 30px;
+    }
+}
+@media (max-width: 575.98px) {
+    .book-hero-heading{
+        margin-top: 50px;
+    }
+    .booking-section {
+        padding: 70px 0;
+    }
+    .booking-title {
+        font-size: 40px;
+    }
+    .booking-info h2 {
+        font-size: 34px;
+    }
+    .booking-form {
+        padding: 20px;
+    }
+}
+

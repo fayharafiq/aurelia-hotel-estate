@@ -1,0 +1,29 @@
+.facility-text{
+    color: rgb(85, 83, 83);
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.facility-lobby-title{
+    font-family: "Cormorant", serif;
+   font-weight: 500;
+   margin-top: 70px;
+   font-size: 40px;
+}
+.facility-lobby-para1{
+    font-family: "Jost", sans-serif;
+     font-weight: 400;
+     font-size: 17px;
+     margin-top: 20px;
+}
+.facility-icon{
+    color: rgb(231, 185, 58);
+    margin-right: 15px;
+}
+.facilit-container{
+    margin-top: 90px;
+}
+.facility-2{
+  margin-left: 50px;
+}

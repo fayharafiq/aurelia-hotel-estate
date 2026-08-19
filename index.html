@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!--cormorant font used for brand name-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <!--Montserrat font used for links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Itallino used for golden text at hero section-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <!--Jost used for hero para-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="logo.png" class="img-fluid logo-img">Aurelia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggler"
+                    aria-controls="navbartoggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbartoggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 links-container">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="room.html">rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="resturant.html">restaurant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="facility.html">facilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="gallery.html">gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="book.html">booking</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid hero-section">
+        <div class="hero-content">
+            <h1 class="hero-heading">Where the sea meets<br>
+                <span class="gold">golden</span> serenity
+            </h1>
+            <p class="hero-para">Perched above a private crescent of shoreline, Aurelia Grand Hotel & Resort has
+                welcomed
+                discerning travelers
+                for nearly a century — with suites dressed in ivory and gold, and service that remembers your name.</p>
+            <div class="hero-btns">
+                <a href="book.html"><button class="btn1">Book Your Stay</button></a>
+                <a href="room.html"><button class="btn2">Explore Suits</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="lobby">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="img-box">
+                        <img src="main-page/main-page-lobby.webp" alt="lobby enterrior" class="img-fluid lobby-img">
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <h5 class="lobby-heading line">A Legacy of Grace</h5>
+                    <h1 class="lobby-title">Nearly a century of unhurried hospitality</h1>
+                    <p class="lobby-para1">Since 1928, Aurelia has stood where the limestone cliffs soften into the sea.
+                        Our halls have
+                        hosted poets, diplomats, and travelers in search of something quieter than the world — a place
+                        where mornings begin with espresso on a sunlit terrace and evenings end beneath lantern-lit
+                        palms.</p>
+                    <p class="lobby-para1">Every suite is appointed by hand, every dish composed in season, and every
+                        guest received as
+                        though returning home. That is not a slogan here; it is the only way we know how to operate.</p>
+                    <a href="about.html"><button class="lobby-btn">Discover Our Story</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rooms">
+        <h5 class="rooms-heading line">Rooms & Suites</h5>
+        <h1 class="rooms-title">Sanctuaries of light and stillness</h1>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-auto">
+                    <div class="rooms-section">
+                        <img src="main-page/room1.webp" class="img-fluid room-img">
+                        <p class="img-box-text">Most Loved</p>
+                        <h5 class="room-content-heading">Deluxe Sea Room</h5>
+                        <div class="room-content-guest">
+                            <p><i class="bi bi-people-fill room-content-icon"></i>2 Guests</p>
+                            <p><i class="bi bi-water room-content-icon"></i>Sea View</p>
+                            <p><i class="bi bi-cup-hot-fill room-content-icon"></i>Breakfast</p>
+                        </div>
+                        <p class="room-content-para">A sun-warmed retreat with a private balcony facing the open water,
+                            dressed in ivory linens and warm timber.</p>
+                        <div class="room-book">
+                            <p class="room-night-text"><span class="room-price">$380</span> / night</p>
+                            <a href="book.html"><button class="room-content-btn">Book Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-auto">
+                    <div class="rooms-section">
+                        <img src="main-page/room2.webp" class="img-fluid room-img">
+                        <p class="img-box-text">Signature</p>
+                        <h5 class="room-content-heading">Grand Ocean Suite</h5>
+                        <div class="room-content-guest">
+                            <p><i class="bi bi-people-fill room-content-icon"></i>2 Guests</p>
+                            <p><i class="bi bi-water room-content-icon"></i>Ocean View</p>
+                            <p><i class="bi bi-stars room-content-icon"></i>Butler</p>
+                        </div>
+                        <p class="room-content-para">Sixty square meters of quiet grandeur — separate salon,
+                            freestanding bath, and a terrace for two at sunset</p>
+                        <div class="room-book">
+                            <p class="room-night-text"><span class="room-price">$620</span> / night</p>
+                            <a href="book.html"><button class="room-content-btn">Book Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-auto">
+                    <div class="rooms-section">
+                        <img src="main-page/room3.webp" class="img-fluid room-img">
+                        <p class="img-box-text">Pinnacle</p>
+                        <h5 class="room-content-heading">Presidential Residence</h5>
+                        <div class="room-content-guest">
+                            <p><i class="bi bi-people-fill room-content-icon"></i>4 Guests</p>
+                            <p><i class="bi bi-water room-content-icon"></i>Panoramic</p>
+                            <p><i class="bi bi-cup-hot-fill room-content-icon"></i>All here</p>
+                        </div>
+                        <p class="room-content-para">The crown of Aurelia: two bedrooms, a private salon beneath crystal
+                            light, and uninterrupted horizon views.</p>
+                        <div class="room-book">
+                            <p class="room-night-text"><span class="room-price">$1,450</span> / night</p>
+                           <a href="book.html"><button class="room-content-btn">Book Now</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="room.html" class="link-underline"><button class="room-btn">View All Rooms</button></a>
+        </div>
+    </section>
+    <section class="quote">
+        <div class="container-fluid quote-container"></div>
+        <div class="container quote-content">
+            <span class="line"></span>
+            <h1 class="quote-text">Luxury is not what you add. It is what you allow yourself to take away — until only
+                the essential remains.</h1>
+            <p class="quoter-name"><span class="line"></span>House philosophy, since 1928</p>
+        </div>
+    </section>
+    <section class="facilities">
+        <h5 class="facility-heading line">The Estate</h5>
+        <h1 class="facility-title">Facilities crafted for every indulgence</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="facility-container">
+                        <i class="bi bi-water facility-icon"></i>
+                    </div>
+                    <div class="facilities-text">
+                        <h4 class="facility-text-heading">Infinity Pool</h4>
+                        <p class="facilty-text-para">A heated edge-less pool suspended above the coastline, open from
+                            dawn until the stars arrive.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="facility-container">
+                        <i class="bi bi-flower2 facility-icon"></i>
+                    </div>
+                    <div class="facilities-text">
+                        <h4 class="facility-text-heading">Aurelia Spa</h4>
+                        <p class="facilty-text-para">Rituals of warm stone, botanical oils, and silence, administered by
+                            masters of their craft.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="facility-container">
+                        <i class="bi bi-trophy facility-icon"></i>
+                    </div>
+                    <div class="facilities-text">
+                        <h4 class="facility-text-heading">Fitness Atelier</h4>
+                        <p class="facilty-text-para">A private atelier of movement with sea views, personal trainers,
+                            and restoration lounges.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <div class="facility-container">
+                        <i class="bi bi-telephone facility-icon"></i>
+                    </div>
+                    <div class="facilities-text">
+                        <h4 class="facility-text-heading">Concierge</h4>
+                        <p class="facilty-text-para">A dedicated concierge around the clock — from yacht charters to
+                            private cellars and beyond.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="facility.html" class="link-underline"><button class="facility-btn">View All Facilities</button></a>
+    </section>
+    <section class="resturant">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="resturant-img-side">
+                        <img src="main-page/resturant-img.webp" class="resturant-img">
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <h5 class="resturant-heading line">Culinary Art</h5>
+                    <h1 class="resturant-title">A table set for the extraordinary</h1>
+                    <p class="resturant-para">At Il Giardino, Chef Matteo Rossi translates the coast into ten tasting
+                        courses — saffron risotto
+                        finished with gold leaf, lobster drawn from morning nets, figs from our own terrace garden.</p>
+                    <p class="resturant-para">The wine cellar beneath the restaurant holds more than 1,200 labels,
+                        curated by our sommelier over two decades of travel.</p>
+                    <a href="resturant.html"><button class="resturant-btn">Discover The Resturant</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <h5 class="gallery-heading line">Gallery</h5>
+        <h1 class="gallery-title">Glimpses of the estate</h1>
+        <div class="container">
+            <div class="row gallery-container">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <img src="main-page/gallery1.webp" class="img-fluid gallery-img">
+                        <div class="gallery-overlay">
+                            <p>The Spa Sanctuary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <img src="main-page/gallery2.webp" class="img-fluid gallery-img">
+                        <div class="gallery-overlay">
+                            <p>The Infinity Terrace</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-card">
+                        <img src="main-page/gallery3.webp" class="img-fluid gallery-img">
+                        <div class="gallery-overlay">
+                            <p>Il Giardino — Seasonal Tasting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="gallery.html" class="link-underline"><button class="gallery-btn">View Full Gallery</button></a>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <img src="logo.png" class="img-fluid contact-logo">
+            <h1 class="contact-heading">Your table by the sea is being set</h1>
+            <p class="contact-para">Reserve your suite for the season ahead. Complimentary welcome<br> champagne and
+                terrace breakfast are included with every direct booking.</p>
+                <div class="contact-btns">
+                   <a href="book.html"> <button class="contact-btn1">Book Your Stay</button></a>
+                    <a href="book.html"><button class="contact-btn2">Speak With Us</button></a>
+                </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 footer-brand">
+                <h2>Aurelia</h2>
+                <p>
+                    Where the sea meets golden serenity.
+                    A timeless escape shaped by elegance,
+                    comfort, and quiet luxury.
+                </p>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <h5>Explore</h5>
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="room.html">Rooms</a>
+                <a href="resturant.html">Restaurant</a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <h5>Discover</h5>
+                <a href="facility.html">Facilities</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="book.html">Booking</a>
+                <a href="book.html">Contact</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 footer-contact">
+                <h5>Contact</h5>
+                <p>+92 300 1234567</p>
+                <p>stay@aureliagrand.com</p>
+                <p>Private Crescent, Vehari, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="line">© 2026 Aurelia Grand Hotel & Resort. All rights reserved.</p>
+            <p>Designed & developed by <span class="line">Fayha Rafiq<i class="bi bi-stars name-icon"></i></span></p>
+        </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>window.addEventListener("scroll", () => {
+            const navbar = document.querySelector(".navbar");
+
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+</body>
+
+</html>
